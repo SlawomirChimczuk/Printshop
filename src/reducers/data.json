@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric1.jpg",
+        "name": "Print 1",
+        "price": 100,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 2,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric2.jpg",
+        "name": "Print 2",
+        "price": 120,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 3,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric3.jpg",
+        "name": "Print 3",
+        "price": 130,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 4,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric4.jpg",
+        "name": "Print 4",
+        "price": 130,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 5,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric5.jpg",
+        "name": "Print 5",
+        "price": 150,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 6,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric6.jpg",
+        "name": "Print 6",
+        "price": 110,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 7,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric7.jpg",
+        "name": "Print 7",
+        "price": 130,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 8,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric8.jpg",
+        "name": "Print 8",
+        "price": 170,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 9,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric9.jpg",
+        "name": "Print 9",
+        "price": 160,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 10,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric10.jpg",
+        "name": "Print 4",
+        "price": 100,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 11,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric11.jpg",
+        "name": "Print 11",
+        "price": 135,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 12,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric12.jpg",
+        "name": "Print 12",
+        "price": 125,
+        "added": false,
+        "number": 0 
+    },
+    {
+        "id": 13,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric1.jpg",
+        "name": "Print 13",
+        "price": 100,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 14,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric2.jpg",
+        "name": "Print 14",
+        "price": 120,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 15,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric3.jpg",
+        "name": "Print 15",
+        "price": 130,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 16,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric4.jpg",
+        "name": "Print 16",
+        "price": 130,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 17,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric5.jpg",
+        "name": "Print 17",
+        "price": 150,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 18,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric6.jpg",
+        "name": "Print 18",
+        "price": 110,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 19,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric7.jpg",
+        "name": "Print 19",
+        "price": 130,
+        "added": false,
+        "number": 0
+    },
+    {
+        "id": 20,
+        "image": "http://serwer2096440.home.pl/autoinstalator/wordpress/wp-content/themes/zukitextile/img/Fabric8.jpg",
+        "name": "Print 20",
+        "price": 170,
+        "added": false,
+        "number": 0
+    }
+]
