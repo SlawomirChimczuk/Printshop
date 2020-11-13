@@ -22,6 +22,7 @@ function App(props) {
                 <Route path="/basket" component={BasketPage} />
                 <NavLink to="/basket" className="basket" exact>
                     <img src={basket} alt=""/>
+                    <div className="basket-bg"></div>
                 </NavLink>
                 <div className="counter">{props.cartProps.printsInCart}</div>
                 <NavLink to="/" className="home">

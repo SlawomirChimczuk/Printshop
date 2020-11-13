@@ -1,10 +1,11 @@
-import { ADD_PRINT_CART, INCREASE_CART_NUMBER, REMOVE_FROM_CART } from "../actions/types"
+import { ADD_PRINT_CART, INCREASE_CART_NUMBER, REMOVE_FROM_CART, DISPLAY_FORM } from "../actions/types"
 // import { v4 as uuid } from 'uuid';
 // import Data from './data.json';
 
 const initialState = {
     printsInCart: 0, 
     cartPrice: 0,
+    showForm: false,
     printsItems: {
         1:{
             id: 1,
@@ -169,6 +170,7 @@ const initialState = {
     }
 }
 
+
 export default (state = initialState, action) => {
     let addQuantity = '';
     switch(action.type){
@@ -189,19 +191,24 @@ export default (state = initialState, action) => {
             return{
                 ...state
             }
-        case REMOVE_FROM_CART:
-            addQuantity = {...state.printsItems[action.payload]};
-            let printsToRemove = addQuantity.number;
-            addQuantity.added = false;
-            addQuantity.number = 0;
-            return{
-                ...state,
+            case REMOVE_FROM_CART:
+                addQuantity = {...state.printsItems[action.payload]};
+                let printsToRemove = addQuantity.number;
+                addQuantity.added = false;
+                addQuantity.number = 0;
+                return{
+                    ...state,
                 printsInCart: state.printsInCart - printsToRemove,
                 cartPrice: state.cartPrice - (printsToRemove * addQuantity.price),
                 printsItems: {
-                    ...state.printsItems,
-                    [action.payload]: addQuantity
-                }
+                ...state.printsItems,
+                [action.payload]: addQuantity
+            }
+        }
+        case DISPLAY_FORM:
+            return {
+                ...state,
+                showForm: true,
             }
         default:
             return state
