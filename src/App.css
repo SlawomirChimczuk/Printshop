@@ -1,15 +1,15 @@
-body{
-  padding: 0; 
+body {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-align: center;
 }
 
-h1{
+h1 {
   font-size: 50px;
 }
 
-.basket{
+.basket {
   position: fixed;
   font-size: 20px;
   top: 60px;
@@ -17,7 +17,7 @@ h1{
   cursor: pointer;
 }
 
-.counter{
+.counter {
   color: #a7d2eb;
   margin: 10px;
   position: fixed;
@@ -27,7 +27,7 @@ h1{
   font-weight: bold;
 }
 
-.basket > img{
+.basket>img {
   width: 40px;
   filter: invert(83%) sepia(16%) saturate(633%) hue-rotate(167deg) brightness(96%) contrast(91%);
   z-index: 2;
@@ -60,17 +60,17 @@ section .gallery {
   transition: .3s;
 }
 
-section .gallery button{
+section .gallery button {
   margin-bottom: 20px;
 }
 
-button{
+button {
   font-size: 24px;
   border: none;
   padding: 10px 20px;
   transition: .5s;
   background-color: #a7d2eb;
-   cursor: pointer;
+  cursor: pointer;
 }
 
 button:hover {
@@ -91,36 +91,114 @@ section .gallery:hover {
   transform: scale(1.03);
 }
 
-
-section img{
+section img {
   width: 100%;
   object-fit: cover;
 }
 
-.cart{
+.cart {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
 }
 
-.cart img{
+.empty {
+  animation: basket 3s;
+}
+
+.cart {
+  animation: basket 1s;
+}
+
+.cart-remove {
+  animation: basketremove 1s;
+  background: red;
+}
+
+.cart img {
   width: 150px;
   height: 150px;
 }
 
-.cart p{
+.cart p {
   margin: 20px;
   font-size: 24px;
 }
 
-.cart p span{
+.cart p span {
   font-size: 24px;
   font-weight: bold;
 }
 
+.payment-form {
+  padding-top: 50px;
+  animation: moveup 2s;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.payment-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-form div input {
+  font-size: 20px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #a7d2eb;
+}
+
+.payment-form div input:focus {
+  outline: none;
+  background-color: #126ca1;
+  color: white;
+  transition: .5s;
+}
+
+.payment-form div label {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.payment-form button {
+  margin-top: 20px;
+}
+
+@keyframes moveup {
+  from {
+    transform: translateY(70px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes basketremove {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes basket {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 1024px) {
-    section .gallery {
+  section .gallery {
     flex-basis: calc((100% / 2) - 20px);
     transition: .3s;
   }
