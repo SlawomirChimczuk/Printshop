@@ -3,7 +3,8 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import {connect} from 'react-redux';
 import { removeFromCart } from '../actions/removeAction';
 import { showFormHandle } from '../actions/showForm';
-import { PaymentForm } from '../Components/PaymentForm';
+import { PaymentForm } from './PaymentForm';
+
 
 
 const BasketPage = ({cartProps, removeFromCart, showFormHandle}) => {

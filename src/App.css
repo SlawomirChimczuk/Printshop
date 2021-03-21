@@ -167,6 +167,22 @@ section img {
   margin-top: 20px;
 }
 
+.page-next{
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+}
+
+.page-prev{
+  position: fixed;
+  bottom: 60px;
+  left: 60px;
+}
+
+.disabled{
+  pointer-events: none;
+  opacity: .6;
+
 .input-wrapper{
   position: relative;
 }

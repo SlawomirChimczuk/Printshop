@@ -209,7 +209,8 @@ export default (state = initialState, action) => {
             return {
                 ...state,
                 showForm: true,
-            }
+                
+        }
         default:
             return state
     }
