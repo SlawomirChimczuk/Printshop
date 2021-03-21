@@ -3,11 +3,11 @@ import './App.css';
 import basket from './basket.png'
 import home from './home.png'
 import {BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
+import NavButtons from './Components/NavButtons/NavButtons';
 import HomePage from './pages/HomePage';
 import BasketPage from './pages/BasketPage';
 import {connect} from 'react-redux';
 import {getCartAmount} from './actions/getAction';
-
 
 function App(props) {
 
@@ -25,10 +25,12 @@ function App(props) {
                     <div className="basket-bg"></div>
                 </NavLink>
                 <div className="counter">{props.cartProps.printsInCart}</div>
-                <NavLink to="/" className="home"> 
+                <NavLink to="/" className="home">
                     <img src={home} alt=""/>
                 </NavLink>
             </div>
+
+            <NavButtons />
         </Router>
     );
 }
