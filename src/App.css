@@ -182,6 +182,18 @@ section img {
 .disabled{
   pointer-events: none;
   opacity: .6;
+
+.input-wrapper{
+  position: relative;
+}
+
+.input-wrapper span{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-size: 12px;
 }
 
 @keyframes moveup {

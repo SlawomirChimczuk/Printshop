@@ -6,6 +6,7 @@ import { showFormHandle } from '../actions/showForm';
 import { PaymentForm } from './PaymentForm';
 
 
+
 const BasketPage = ({cartProps, removeFromCart, showFormHandle}) => {
     let printsInCart = [];
     
