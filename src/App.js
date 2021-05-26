@@ -3,7 +3,6 @@ import './App.css';
 import basket from './basket.png'
 import home from './home.png'
 import {BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
-import NavButtons from './Components/NavButtons/NavButtons';
 import HomePage from './pages/HomePage';
 import BasketPage from './pages/BasketPage';
 import {connect} from 'react-redux';
@@ -30,7 +29,6 @@ function App(props) {
                 </NavLink>
             </div>
 
-            <NavButtons />
         </Router>
     );
 }
